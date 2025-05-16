@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf3;
+  color: #333;
+}
+
+header {
+  background-color: #c0392b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+header a {text-decoration: none;
+color: #0f0a09;
+}
+
+
+
+
+.impact {
+  background-image: url(fundo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.impact-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.impact h2 {
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+.impact p {
+  font-size: 18px;
+  margin: 0;
+}
+
+section.sobre, section.origem {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #c0392b;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
